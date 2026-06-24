@@ -48,3 +48,47 @@ body {
     height: auto;
     margin: 10px 0;
   }
+
+  article {
+    transition: transform 0.2s;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  }
+  
+  article:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  }
+  
+  header {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  }
+  
+  nav a {
+    background: #f0f4ff;
+    padding: 5px 12px;
+    border-radius: 20px;
+    color: #0055bb;
+    font-size: 14px;
+  }
+  
+  nav a:hover {
+    background: #0055bb;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  article h2 {
+    font-size: 20px;
+    border-left: 4px solid #0055bb;
+    padding-left: 10px;
+  }
+  
+  article p:first-of-type {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 8px;
+  }
